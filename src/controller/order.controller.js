@@ -18,7 +18,7 @@ exports.newOrder= catchAsync(async(req,res,next)=>{
       } = req.body;
     const user = req.user.id
       const order = await CreateOrder(
-         address,
+        address,
         city,
         state,
         country,

@@ -1,0 +1,7 @@
+{"level":"info","message":"successful login","timestamp":"2023-03-09T08:45:38.455Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-09T08:47:13.807Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-09T08:47:41.999Z"}
+{"level":"error","message":"user is not verified","timestamp":"2023-03-09T08:51:55.321Z"}
+{"level":"error","message":"user is not verified , user._id","timestamp":"2023-03-09T08:53:19.694Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-09T09:39:01.226Z"}
+{"level":"info","message":"successful logout","timestamp":"2023-03-09T09:39:23.063Z"}
