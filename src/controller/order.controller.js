@@ -5,23 +5,27 @@ const { CreateOrder,getOrder,cancelOrder } = require("../service/order.service")
 //create new order
 exports.newOrder= catchAsync(async(req,res,next)=>{
     const {
-        shippingInfo,
-        orderItems,
-        paymentInfo,
-        itemsPrice,
-        taxPrice,
-        shippingPrice,
-        totalPrice,
+        address,
+        city,
+        state,
+        country,
+        pinCode,
+        phoneNo,
+        card_no,
+        
+
+
       } = req.body;
     const user = req.user.id
       const order = await CreateOrder(
-        shippingInfo,
-        orderItems,
-        paymentInfo,
-        itemsPrice,
-        taxPrice,
-        shippingPrice,
-        totalPrice,
+         address,
+        city,
+        state,
+        country,
+        pinCode,
+        phoneNo,
+        card_no,
+       
         user
       );
     

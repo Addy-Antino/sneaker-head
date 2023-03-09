@@ -2,9 +2,9 @@ const Cart = require('../model/cart.model')
 // const ErrorHandler = require('../utils/errorHandler')
 
 //*This is method is for create cart
-const createCart = async(name,price,quantity,description,product_id,whats_for,user)=>{
+const createCart = async(name,price,quantity,description,product_id,whats_for,user,image,email)=>{
     const cart = await Cart.create({
-        name,price,quantity,description,description,product_id,whats_for,user
+        name,price,quantity,description,description,product_id,whats_for,user,image,email
     })
     return cart
 }
@@ -16,6 +16,12 @@ const getCart = async(id)=>{
     return cart
 }
 
+//*Cart delete
+const cartDel =  async(product_id)=>{
+    const   cart = await Cart.findOneAndDelete(product_id)
+    return cart
+}
 
 
-module.exports = {createCart,getCart}
+
+module.exports = {createCart,getCart,cartDel}
