@@ -78,6 +78,18 @@ https://sneaker-head-1.adityarupdatta.repl.co/api/v1/delete/user/me
 Using this api you can delete your profile from the database at first it will set the cookie to null so that you  can login new user on your browser hassle free. 
 
  ---------------------------------------------------------------------------------------------------------- 
+ 
+ 
+ 
+ 
+ ![new (1)](https://user-images.githubusercontent.com/124931623/224275054-88106820-2125-40e2-ac2f-b84ce79a40cd.jpg)
+
+ 
+ 
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------- 
+
 **Product routes **
 
 Create Product: 

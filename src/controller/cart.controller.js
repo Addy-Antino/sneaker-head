@@ -38,3 +38,13 @@ exports.cartdel = catchAsync(async(req,res,next)=>{
         cart
     })
 })
+//*Delete all carts
+
+exports.cartDelAll = catchAsync(async(req,res,next)=>{
+    const user = req.user.id;
+    const deleteCart =  await Cart.cartDelAll(user)
+    res.status(204).json({
+        success:true,
+        deleteCart
+    })
+})

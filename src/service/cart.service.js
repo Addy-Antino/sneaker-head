@@ -22,6 +22,11 @@ const cartDel =  async(product_id)=>{
     return cart
 }
 
+//* Cart deleteAll 
+const cartDelAll = async(user)=>{
+    const query ={ user:user}
+    const cart = await Cart.deleteMany(query)
+    return cart
+}
 
-
-module.exports = {createCart,getCart,cartDel}
+module.exports = {createCart,getCart,cartDel,cartDelAll}
