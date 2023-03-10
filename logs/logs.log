@@ -1,0 +1,42 @@
+{"level":"info","message":"successful login","timestamp":"2023-03-09T08:45:38.455Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-09T08:47:13.807Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-09T08:47:41.999Z"}
+{"level":"error","message":"user is not verified","timestamp":"2023-03-09T08:51:55.321Z"}
+{"level":"error","message":"user is not verified , user._id","timestamp":"2023-03-09T08:53:19.694Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-09T09:39:01.226Z"}
+{"level":"info","message":"successful logout","timestamp":"2023-03-09T09:39:23.063Z"}
+{"level":"info","message":"User created waiting for email verification","timestamp":"2023-03-10T06:04:26.426Z"}
+{"level":"info","message":"User  mail successfully verified","timestamp":"2023-03-10T06:05:08.874Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T06:05:25.358Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T06:19:13.246Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T06:36:46.678Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T06:47:56.724Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T09:54:58.460Z"}
+{"level":"info","message":"successful logout","timestamp":"2023-03-10T09:55:03.334Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T09:55:29.345Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T09:56:43.474Z"}
+{"level":"info","message":"successful logout","timestamp":"2023-03-10T10:00:34.079Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T10:02:10.788Z"}
+{"level":"info","message":"Password updated","timestamp":"2023-03-10T10:11:48.330Z"}
+{"level":"info","message":"User created waiting for email verification","timestamp":"2023-03-10T10:18:59.525Z"}
+{"level":"error","message":"Pending verifiction","timestamp":"2023-03-10T10:19:23.668Z"}
+{"level":"info","message":"User  mail successfully verified","timestamp":"2023-03-10T10:20:11.207Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T10:20:23.882Z"}
+{"level":"info","message":"password reset token send to user","timestamp":"2023-03-10T10:21:40.955Z"}
+{"level":"info","message":"Password changed!","timestamp":"2023-03-10T10:23:02.828Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T10:23:34.946Z"}
+{"level":"info","message":"Password updated","timestamp":"2023-03-10T10:24:05.495Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T10:25:23.588Z"}
+{"level":"info","message":"User deleted","timestamp":"2023-03-10T10:25:31.297Z"}
+{"level":"info","message":"successful logout","timestamp":"2023-03-10T10:25:31.708Z"}
+{"level":"info","message":"User created waiting for email verification","timestamp":"2023-03-10T10:25:49.190Z"}
+{"level":"error","message":"Pending verifiction","timestamp":"2023-03-10T10:33:04.879Z"}
+{"level":"info","message":"User  mail successfully verified","timestamp":"2023-03-10T10:33:21.207Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T10:33:30.814Z"}
+{"level":"info","message":"User deleted","timestamp":"2023-03-10T10:46:19.476Z"}
+{"level":"info","message":"successful logout","timestamp":"2023-03-10T10:46:19.774Z"}
+{"level":"info","message":"User created waiting for email verification","timestamp":"2023-03-10T10:46:35.655Z"}
+{"level":"error","message":"Pending verifiction","timestamp":"2023-03-10T10:54:02.531Z"}
+{"level":"error","message":"Pending verifiction","timestamp":"2023-03-10T11:12:49.473Z"}
+{"level":"info","message":"User  mail successfully verified","timestamp":"2023-03-10T11:13:34.741Z"}
+{"level":"info","message":"successful login","timestamp":"2023-03-10T11:13:41.332Z"}

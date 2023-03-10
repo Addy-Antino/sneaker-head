@@ -8,7 +8,7 @@ exports.processPayment = catchAsync(async (req, res, next) => {
     amount: req.body.amount,
     currency: "inr",
     metadata: {
-      company: "Ecommerce",
+      company: "Sneaker Head",
     },
   });
 

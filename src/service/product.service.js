@@ -45,6 +45,8 @@ const getProducts=async(query)=>{
     
 }
 
+//*
+
 //*For updating a product
 const updateProducts=async(id,body)=>{
 let product = await Product.findById(id);

@@ -1,5 +1,5 @@
 const ErrorHandler = require("../utils/errorHandler")
-
+//* For customized errors
 module.exports=(err,req,res,next)=>{
 
   
