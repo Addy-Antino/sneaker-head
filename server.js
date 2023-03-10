@@ -12,6 +12,11 @@ const connectDB= require("./config/database")
 dotenv.config({path:"./config/config.env"})
 
 connectDB()
+cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+  });
 const server = app.listen(process.env.PORT,()=>{
     console.log(`server is running on http://localhost:${process.env.PORT}`)
 })
