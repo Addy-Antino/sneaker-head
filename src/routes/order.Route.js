@@ -4,9 +4,11 @@ const { newOrder,getOrders,cancelOrder } = require ('../controller/order.control
 
 const router = express.Router();
 
-//new Order
+//* For new order 
 router.route('/order/new').post(ifAuthenticateduser,newOrder)
+//* For getting the orders
 router.route('/orders').get(ifAuthenticateduser,getOrders)
+//* For cancel a particular order
 router.route('/cancel/order/:id').delete(ifAuthenticateduser,cancelOrder)
 
 

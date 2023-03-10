@@ -2,7 +2,7 @@ const catchAsync = require("../middleware/catchAsync");
 const Cart = require("../service/cart.service");
 const ErrorHandler = require("../utils/errorHandler")
 
-//*create cart
+//* Create cart
 exports.cartadd= catchAsync(async(req,res,next)=>{
 const {name,price,quantity,description,product_id,whats_for,image,email} =req.body
 const user = req.user.id;
@@ -18,7 +18,7 @@ res.status(201).json({
 })
 })
 
-//*view cart
+//* View cart
 exports.cartview = catchAsync(async(req,res,next)=>{
     const id = req.user.id;
     const cart = await Cart.getCart(id)
@@ -28,7 +28,7 @@ exports.cartview = catchAsync(async(req,res,next)=>{
     })
 })
 
-//*Delete cart
+//* Delete cart
 
 exports.cartdel = catchAsync(async(req,res,next)=>{
     const product_id =req.body.product_id
