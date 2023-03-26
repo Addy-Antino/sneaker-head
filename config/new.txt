@@ -1,0 +1,1 @@
+mongodb+srv://freshbliss:FRESHbliss@20@cluster0.0iq6oak.mongodb.net/?retryWrites=true&w=majority
