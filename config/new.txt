@@ -1,1 +1,17 @@
 mongodb+srv://freshbliss:FRESHbliss@20@cluster0.0iq6oak.mongodb.net/?retryWrites=true&w=majority
+JWT_SECRET="theheroistonystark"
+JWT_EXPIRE=2592000
+DB_URL="mongodb+srv://sneaker_head:PASSadmin@cluster0.8sxltex.mongodb.net/?retryWrites=true&w=majority"
+PORT=3000
+SMTP_MAIL='sahilk28561234@gmail.com'
+SMTP_PASS='pyfzzaprgtsgehrn'
+FRONT_URL='http://192.168.11.76:3000'
+COOKIE_EXPIRE=7
+
+
+STRIPE_API_KEY="pk_test_51MdsbZSGwZOvI2YxqWYAxL6Vy0CrdXaJxPUzEv2fbHxzc4i5FoxTwp39NZu3VokEbEj1FHwYrt8KIEcW10pbkhcv00pPyZ4Wxx"
+STRIPE_SECRET_KEY="sk_test_51MdsbZSGwZOvI2YxNw5gJAIOhYTzkH2tfMFKblj8yqh0TZ8usMAQMdtd09h6cbe4IuvNUAfaR656V7hxq8pXpHNi00NGrXKuj2"
+
+CLOUDINARY_NAME="dumxgw5vd"
+CLOUDINARY_API_KEY=174967531971416
+CLOUDINARY_API_SECRET="iv2FumYvqqMn5q766kZ-uPBaOAo"
